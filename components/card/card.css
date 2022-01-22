@@ -1,0 +1,110 @@
+#card{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+#card-basic{
+    background: #fff;
+    width: 15%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 3rem 4rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+#card-theme-name{
+    padding: 4rem 0 0 4rem;
+}
+
+img{
+    width: 11.5rem;
+    object-fit: cover;
+}
+
+.details {
+    text-align: left;
+    margin-top: 1rem;
+    color: rgb(75, 75, 75);
+
+}
+.name{
+    color: rgb(75, 75, 75);
+}
+.by-photographer{
+    color: rgb(75, 75, 75);
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+.left {
+    display: flex;
+}
+.left-item{
+    padding: 0 3px;
+}
+
+.right {
+    display: flex;
+    color: rgb(75, 75, 75);
+}
+.right-item{
+    padding: 0 3px;
+}
+
+/* details over image */
+.name-over-img{
+    position: absolute;
+    top: 43.5rem;
+    color: white;
+    padding-left: 0.5rem;
+
+}
+.by-photographer-over-img{
+    position: absolute;
+    top: 44.5rem;
+    color: white;
+    padding-left: 0.5rem;
+}
+
+/* Basic with header */
+.card-header{
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+/* basic with footer buttons only */
+.footer-with-btns-only{
+    display: flex;
+    justify-content: start;
+}
+.footer-with-btns-only .left-item{
+    padding: 0.2rem 1rem 0 0;
+}
+
+/* basic with footer icons only */
+.footer-with-icons-only{
+    display: flex;
+    justify-content: end;
+}
+.footer-with-icons-only .left-item{
+    padding: 0.2rem 0 0 1rem;
+}

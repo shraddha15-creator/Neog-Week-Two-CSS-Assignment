@@ -1,0 +1,104 @@
+h1{
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+#dialogs{
+    display: flex;
+    justify-content: center;
+}
+
+#show-dialog-one{
+    margin-left: 7rem;
+    font-size: 20px;
+}
+
+#dialog-one{
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+    margin: 7rem 23rem;
+    padding: 1rem;
+    border: 0;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgb(122, 122, 122);
+}
+
+#dialog-one h3{
+    padding-bottom: 8px;
+}
+
+#dialog-one p{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+#hide-dialog-one-btn{
+    background-color: rgba(255, 255, 255, 0.027);
+    box-shadow: none;
+    margin: 0;
+    padding: 14px 0 0 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+#hide-dialog-one-btn:hover{
+    font-weight: bold;
+}
+
+/* dialog 2 */
+
+#show-dialog-two{
+    margin-left: 10rem;
+    font-size: 20px;
+}
+
+#dialog-two{
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+    margin: 7rem 42rem;
+    padding: 1rem;
+    border: 0;
+    text-align: center;
+    width: 15rem;
+    box-shadow: 3px 3px 3px rgb(122, 122, 122);
+}
+
+#dialog-two h3{
+    padding-bottom: 8px;
+}
+
+#dialog-two p{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    font-size: 17px;
+}
+
+.dialog-btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hide-dialog-two-yes{
+    background-color: rgba(255, 255, 255, 0.027);
+    box-shadow: none;
+    margin: 0;
+    padding: 14px 0 0 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+}
+
+#hide-dialog-two-no{
+    background-color: rgba(255, 255, 255, 0.027);
+    box-shadow: none;
+    margin: 0;
+    padding: 14px 0 0 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+
+#hide-dialog-two-btn:hover{
+    font-weight: bold;
+}

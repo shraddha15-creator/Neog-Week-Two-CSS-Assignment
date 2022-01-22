@@ -1,0 +1,47 @@
+#chips{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.chips-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(50, 161, 205);
+    border-radius: 10px;
+    justify-content: start;
+    width:  40rem;
+    box-shadow: 5px 5px 5px rgb(87, 87, 87);
+}
+
+.chip-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(189, 189, 189);
+    padding: 9px 1rem;
+    margin: 7px;
+    border-radius: 45px;
+    border: 3px solid white;
+    width: 6rem;
+    box-shadow: 3px 3px 3px rgb(59, 59, 59);
+}
+
+.chip-box:hover{
+    background-color: rgb(216, 216, 216);
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px rgb(59, 59, 59);
+}
+
+.chip-box #heart{
+    color: rgb(235, 2, 2);
+}
+
+.chip-box i:hover{
+    color: rgb(0, 77, 124);
+    cursor: pointer;
+}

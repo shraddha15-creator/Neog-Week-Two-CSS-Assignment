@@ -1,0 +1,96 @@
+#drawer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.header .title{
+    font-size: 25px;
+}
+.header .subtitle{
+    font-size: 15px;
+    color: gray
+}
+
+.drawer-one{
+    background-color: white;
+    width: 9rem;
+    height: 12rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.drawer-one-main{
+    padding: 0.4rem 0;
+}
+
+.drawer-one-main .drawer-item{
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+
+.drawer-item:hover{
+    background-color: rgb(206, 205, 253);
+    width: 8rem;
+    border-radius: 0.2rem;
+    margin-top: 2px;
+}
+
+#active{
+    background-color: rgb(206, 205, 253);
+    width: 8rem;
+    border-radius: 0.2rem;
+    color: rgb(42, 38, 250);
+}
+
+.drawer-one-main .drawer-item i{
+    padding-right: 1rem;
+}
+
+.drawer-two{
+    background-color: white;
+    width: 9rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.drawer-two-main .drawer-item{
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+
+.drawer-two-main .drawer-item-categories{
+    font-size: 13px;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    color: rgb(73, 73, 73);
+
+}
+
+.drawer-two-main .drawer-item i{
+    padding-right: 1rem;
+}
+
+.drawer-submenu .drawer-submenu-items{
+    color: rgb(73, 73, 73);
+    background-color: red;
+}
+
+.drawer-two-main .drawer-item-settings{
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    color: rgb(34, 34, 34);
+    border-top: 1px solid rgb(153, 153, 153);
+}
+
+.drawer-two-main .drawer-item-settings i{
+    padding-right: 1rem;
+}

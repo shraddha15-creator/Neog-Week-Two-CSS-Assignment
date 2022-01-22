@@ -1,0 +1,165 @@
+h1{
+    text-align: center;
+}
+
+#card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-basic{
+    background-color: white;
+    width: 16rem;
+    margin: 1rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
+}
+
+img{
+    width: 16rem;
+}
+
+.card-name:hover{
+    color:rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+.name-ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.4rem;
+}
+
+.card-discription{
+    /* display: flex; */
+    padding: 0 0.8rem;
+}
+
+.ratings{
+    background-color: yellow;
+    border-radius: 3px;
+    padding: 0 1rem;
+}
+
+.card-details{
+    color: rgb(68, 68, 68);
+    padding: 1rem 0;
+}
+
+.card-subdetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+    border-top: 1px solid rgb(160, 160, 160);
+}
+
+.like{
+    color: red;
+    fill: red;
+}
+
+.card-btns{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 162, 255);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.card-btns i {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.card-btns:hover{
+    background-color: rgb(74, 189, 255);
+}
+
+/* basic dark card */
+.card-dark-basic{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 16rem;
+    margin: 1rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.card-dark-details{
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+.ratings-dark{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding: 0 1rem;
+}
+
+/* Card with name overlay */
+.card-overlay{
+    background-color: white;
+    width: 16rem;
+    height: 21.4rem;
+    margin: 1rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
+}
+
+.name-ratings-overlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.4rem;
+    background-color: rgba(255, 255, 255, 0.247);
+    margin-top: 7px;
+}
+
+.name-ratings-overlay{
+    position: relative;
+    bottom: 11.4rem;
+    left: -15px;
+    color: white;
+}
+
+.name-ratings-overlay .ratings{
+    color: black;
+}
+
+.card-details-overlay{
+    position: relative;
+    top: -3rem;
+}
+
+.card-subdetails-overlay{
+    position: relative;
+    top: -2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+    border-top: 1px solid rgb(160, 160, 160);
+}
+
+.card-btns-overlay{
+    position: relative;
+    top: -2.7rem;
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 162, 255);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    cursor: pointer;
+}
