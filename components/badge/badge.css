@@ -1,45 +1,45 @@
-body{
-    text-align: center;
+body {
+    /* text-align: center; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
 
-#badges{
+#badges {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin-top: 5rem;
 }
 
-.badge-one{
+.badge-one {
     display: flex;
     /* background-color: #fff; */
     padding: 1rem;
     margin: 1rem;
 }
 
-.badge-one div i{
+.badge-one div i {
     margin: 3rem;
     font-size: 3rem;
 }
 
-.badge-two{
+.badge-two {
     display: flex;
     /* background-color: #fff; */
     padding: 1rem;
     margin: 1rem;
 }
 
-.badge-two div i{
+.badge-two div i {
     margin: 1rem;
     font-size: 3rem;
 }
 
-.badge-icon{
+.badge-icon {
     position: relative;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ body{
     margin-right: 3rem;
 }
 
-.icon-badge-nums{
+.icon-badge-nums {
     position: absolute;
     top: -20px;
     right: -20px;
@@ -70,7 +70,7 @@ body{
     font-weight: bold;
 }
 
-.icon-badge-nums-blue{
+.icon-badge-nums-blue {
     position: absolute;
     top: -20px;
     right: -20px;
@@ -86,7 +86,7 @@ body{
     font-weight: bold;
 }
 
-.icon-badge-status-active{
+.icon-badge-status-active {
     position: absolute;
     top: 40px;
     right: -20px;
@@ -102,7 +102,7 @@ body{
     font-weight: bold;
 }
 
-.icon-badge-status-busy{
+.icon-badge-status-busy {
     position: absolute;
     top: -10px;
     right: 40px;
@@ -118,11 +118,11 @@ body{
     font-weight: bold;
 }
 
-.fab fa-facebook-square{
+.fab fa-facebook-square {
     color: white;
 }
 
-.icon-badge-status-away{
+.icon-badge-status-away {
     position: absolute;
     top: 40px;
     right: -10px;

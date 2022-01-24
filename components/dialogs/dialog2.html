@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="dialogs.css">
-    <title>Dialog 2</title>
-</head>
-<body>
-    <h1>Dialog</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../../style.css" />
+		<link rel="stylesheet" href="dialogs.css" />
+		<title>Dialog 2</title>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li>
+					<a href="./index.html"><i class="fas fa-home"></i></a>
+				</li>
+				<li>
+					<a href="../card2/card2.html">Cards</a>
+					<a href="../chips/chips.html">Chips</a>
+					<a href="../drawer/drawer.html">Drawers</a>
+					<a href="../header/header.html">Headers</a>
+					<a href="../badge/badge.html">Badges</a>
+					<a href="../snackbar/snackbar.html">Snackbars</a>
+					<a href="../dialogs/dialog2.html">Dialogs</a>
+					<a href="../tabs/tabs.html">Tabs</a>
+				</li>
+			</ul>
+		</header>
+		<h1>Dialog</h1>
 
-    <div id="dialogs">
-        <!-- Dialog 1 -->
-        <dialog id="dialog-one">
-            <h3>Alert!</h3>
-            <p>Are you sure you want to exit?</p>
-            <div-dialog-btns>
-                <button id="hide-dialog-one-btn">Okay</button>
-                <!-- <button id="hide-dialog-one">No</button> -->
-            </div-dialog-btns>
-        </dialog>
-        <button id="show-dialog-one">Show Dialog 1</button>
+		<div id="dialogs">
+			<!-- Dialog 1 -->
+			<dialog id="dialog-one">
+				<h3>Alert!</h3>
+				<p>Are you sure you want to exit?</p>
+				<div-dialog-btns>
+					<button id="hide-dialog-one-btn">Okay</button>
+					<!-- <button id="hide-dialog-one">No</button> -->
+				</div-dialog-btns>
+			</dialog>
+			<button id="show-dialog-one">Show Dialog 1</button>
 
-        <!-- Dialog 2 -->
-        <dialog id="dialog-two">
-            <h3>Do you want to delete this account?</h3>
-            <p>You cannot undo once deleted.</p>
-            <div class="dialog-btns">
-                <button id="hide-dialog-two-yes">Cancel</button>
-                <button id="hide-dialog-two-no">Delete</button>
-            </div>
-        </dialog>
-        <button id="show-dialog-two">Show Dialog 2</button>
-    </div>
+			<!-- Dialog 2 -->
+			<dialog id="dialog-two">
+				<h3>Do you want to delete this account?</h3>
+				<p>You cannot undo once deleted.</p>
+				<div class="dialog-btns">
+					<button id="hide-dialog-two-yes">Cancel</button>
+					<button id="hide-dialog-two-no">Delete</button>
+				</div>
+			</dialog>
+			<button id="show-dialog-two">Show Dialog 2</button>
+		</div>
 
-    <script src="dialog.js"></script>
-</body>
+		<script src="dialog.js"></script>
+	</body>
 </html>
